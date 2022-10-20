@@ -1,0 +1,66 @@
+@import url(reset.css);
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    /* height: 100vh; */
+}
+
+.clearfix {
+    clear: both;
+}
+
+.clearfix::after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header{
+    width: 100px;
+}
+
+#logo-section{
+    display: flex;
+}
+#form-input{
+    /* height: fit-content; */
+    /* width: 500px; */
+    display: flex;
+    align-items: center;
+}
+#form-input svg{
+    width: 24px;
+    height: 24px;
+}
+#sec-logo img{
+    width: 200px;
+    height: auto;
+    padding: 20px;
+}
+#form-input{
+    height: 40px;
+    width: 100%;
+    /* max-width: 584px; */
+    
+   
+    border: 1px solid #dfe1e5;
+    border-radius: 24px;
+    padding: 0 8px 0 14px;
+    
+}
+#txt-search{
+    width: 500px;
+    outline: none;
+    /* border: none; */
+    border: 0;
+
+}
+#search-form{
+    display: flex;
+    align-items: center;
+}
+
